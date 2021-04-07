@@ -1,0 +1,7 @@
+lst2 = list(map(int,input().split()))
+print("The entered list of numbers:",lst2)
+lst3 = []
+for i in lst2:
+    if i > 0:
+        lst3.append(i)
+print("The list of positive integers:",lst3)
