@@ -1,0 +1,5 @@
+lst = list(map(int,input().split()))
+print("The entered list of numbers:",lst)
+for i in lst:
+    if i>0:
+       print(i,end = ',')
